@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+}
+
+header{
+    height: 60px;
+    border: solid black;
+    color: aqua;
+    /* border: solid wheat; */
+    justify-content: center;
+    align-items: center;
+}
+
+#button{
+    height: 50px;
+    border: solid black;
+    display:flex;
+    justify-content: center;
+    border: solid wheat;
+    
+}
+
+#image{
+
+   display:inline-block;
+
+
+}
+
+#jiya img{
+     margin: 0px;
+     margin-top: 20px; 
+     width: 100%; height:
+    700px; border-color:black ;
+}
+
+
+img{
+    height: 400px;
+    width: 400px;
+    border: solid black;
+    margin: 40px;
+    border-radius: 20px;
+    border: solid wheat;
+}
+
+img:hover{
+   transform: scale(1.05);
+}
+
+footer{
+    height: 100px;
+background-color:black;
+}
+
+#ashwin{
+    
+    height: 100px;
+    /* width: 100%; */
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 50px;
+}
+
+#ashwin a{
+
+    padding-left: 50px;
+}
+
+#beak{
+
+   
+    height: 40px;
+    background-color:rgb(102, 119, 128);
+}
+
+@media (max-width:660px){
+
+    img{
+        height: 100px;
+        width: 100px;
+        border: solid black;
+        margin: 30px;
+        border-radius: 20px;
+        border: solid wheat;
+    }
+    
+    #ashwin {
+
+        display: grid;
+        font: 10px;
+        padding: 20px;
+    }
+
+    footer{
+        height: 50px;
+        background-color:black;
+        font:20px
+    }
+    
+    #jiya img{
+        margin: 0px;
+        margin-top: 20px; 
+        width: 100%; 
+        height:300px; 
+        border-color:black ;
+   }
+   
+
+   #ashwin a{
+
+    font:20px;
+   }
+
+}
